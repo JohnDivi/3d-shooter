@@ -1,0 +1,253 @@
+[
+    {
+      "objects": [
+        {
+          "name": "mainPlayer",
+          "material": {
+            "diffuse": [
+              0,
+              1,
+              0
+            ],
+            "ambient": [
+              0.3,
+              0.3,
+              0.3
+            ],
+            "specular": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "n": 10.000002,
+            "shaderType": 1,
+            "alpha": 0.001
+          },
+          "type": "cube",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "diffuseTexture": "pepe.jpg",
+          "normalTexture": "defaultNorm.jpg",
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "parent": null,
+          "model": null
+        },
+        {
+          "name": "mainPlane",
+          "material": {
+            "diffuse": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "ambient": [
+              0.3,
+              0.3,
+              0.3
+            ],
+            "specular": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "n": 10.000002,
+            "shaderType": 1,
+            "alpha": 1
+          },
+          "type": "cube",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            4096,
+            1,
+            4096
+          ],
+          "diffuseTexture": "default.jpg",
+          "normalTexture": "defaultNorm.jpg",
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "parent": null,
+          "model": null
+        },
+        {
+          "name": "wall",
+          "material": {
+            "diffuse": [
+              1,
+              0,
+              0
+            ],
+            "ambient": [
+              0.3,
+              0,
+              0
+            ],
+            "specular": [
+              0.5,
+              0.25,
+              0.25
+            ],
+            "n": 10.000002,
+            "shaderType": 1,
+            "alpha": 0.3
+          },
+          "type": "cube",
+          "position": [
+            0.5,
+            0,
+            6
+          ],
+          "scale": [
+            10,
+            10,
+            1
+          ],
+          "diffuseTexture": "default.jpg",
+          "normalTexture": "defaultNorm.jpg",
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "parent": null,
+          "model": null
+        }
+      ],
+      "pointLights": [
+        {
+          "name": "pointLight1",
+          "colour": [
+            0.75,
+            0.75,
+            0.75
+          ],
+          "position": [
+            0,
+            5,
+            0
+          ],
+          "strength": 2,
+          "quadratic": 0.035,
+          "linear": 0.09,
+          "constant": 1,
+          "nearPlane": 0.5,
+          "farPlane": 100,
+          "shadow": 0
+        }
+      ],
+      "settings": {
+        "backgroundColor": [
+          0,
+          0,
+          0
+        ],
+        "camera": {
+          "name": "mainCamera",
+          "position": [
+            1.9372913837432861,
+            1.4096806049346924,
+            -3.530874013900757
+          ],
+          "front": [
+            -0.26772633876987567,
+            -0.0941083157195867,
+            0.9588880187181922
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "pitch": -5.400000000000083,
+          "yaw": 105.60000000000085,
+          "roll": 0,
+          "moveSpeed": 10,
+          "move": false,
+          "canvasFocused": false,
+          "rateX": 0,
+          "rateY": 0,
+          "keyboard": {
+            "W": false,
+            "a": false,
+            "w": false
+          },
+          "viewMatrix": {
+            "0": -0.9631626009941101,
+            "1": -0.02530759386718273,
+            "2": 0.2677263021469116,
+            "3": 0,
+            "4": 0,
+            "5": 0.995561957359314,
+            "6": 0.09410834312438965,
+            "7": 0,
+            "8": -0.26891976594924927,
+            "9": 0.09064163267612457,
+            "10": -0.958888053894043,
+            "11": 0,
+            "12": 0.9164047241210938,
+            "13": -1.0343520641326904,
+            "14": -4.037039279937744,
+            "15": 1
+          },
+          "sensitivity": 0.4
+        }
+      }
+    }
+  ]
